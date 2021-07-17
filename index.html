@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="./fontawesome-free-5.15.3-web/css/all.css">
+    <title>SocialKeeda</title> 
+</head>
+<body>
+
+    <nav>
+        <div class="nav-left">
+            <img src="./images/social.png" alt="" class="logo">
+            <ul>
+                <li><img src="./images/notification.png" alt=""></li>
+                <li><img src="./images/inbox.png" alt=""></li>
+                <li><img src="./images/video.png" alt=""></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="./images/search.png" alt="">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="call()">
+                <img src="./images/jagsprofile.jpg" alt="">
+            </div>
+        </div>
+        <!-- Settings Menu -->
+        <div class="settings-menu">
+            <div id="dark-btn">
+                <span></span>
+            </div>
+            <div class="settings-menu-inner">
+            <div class="user-profile">
+                <img src="./images/jagsprofile.jpg" alt="">
+                <div>
+                    <p>It's Jagmohan</p>
+                    <a href="#">View Profile</a>
+                </div>
+            </div>
+            <hr>
+            <div class="user-profile">
+                <img src="./images/feedback.png" alt="">
+                <div>
+                    <p>Give Reviews</p>
+                    <a href="#">Mention your thoughts...</a>
+                </div>
+            </div>
+            <hr>
+            <div class="settings-link">
+                <img src="./images/setting.png" alt="" class="settings-icon">
+                <a href="#">Settings and Privacy <img src="./images/arrow.png" width="10px" alt=""></a>
+            </div>
+            <div class="settings-link">
+                <img src="./images/help.png" alt="" class="settings-icon">
+                <a href="#">Help and Support <img src="./images/arrow.png" width="10px" alt=""></a>
+            </div>
+            <div class="settings-link">
+                <img src="./images/display.png" alt="" class="settings-icon">
+                <a href="#">Display and Accessiblity<img src="./images/arrow.png" width="10px" alt=""></a>
+            </div>
+            <div class="settings-link">
+                <img src="./images/logout.png" alt="" class="settings-icon">
+                <a href="#">Logout <img src="./images/arrow.png" width="10px" alt=""></a>
+            </div>
+        </div>
+        </div>
+    
+    </nav>
+    
+    <!-- Containers -->
+    <div class="container">
+        <!-- Left Sidebar -->
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img src="./images/news.png" alt="">Latest News</a>
+                <a href="#"><img src="./images/friends.png" alt="">Friends</a>
+                <a href="#"><img src="./images/group.png" alt="">Groups</a>
+                <a href="#"><img src="./images/marketplace.png" alt="">Marketplace</a>
+                <a href="#"><img src="./images/watch.png" alt="">Watch</a>
+                <a href="#">View More....</a>
+            </div>
+            <div class="shortcut-links">
+                <p>Your Shortcuts</p>
+                <a href="#"><img src="./images/shortcut-1.png" alt="">Web Developers</a>
+                <a href="#"><img src="./images/shortcut-2.png" alt="">Web Designers</a>
+                <a href="#"><img src="./images/shortcut-3.png" alt="">Web UI/UX</a>
+                <a href="#"><img src="./images/shortcut-4.png" alt="">Web Analyst</a>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="./images/upload.png" alt="">
+                    <p>Post Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="./images/rahul.jpg" alt="">
+                    <p>Rahul</p>
+                </div> <div class="story story3">
+                    <img src="./images/habi.jpg" alt="">
+                    <p>Habi</p>
+                </div> <div class="story story4">
+                    <img src="./images/sas.JPG" alt="">
+                    <p>Sashi</p>
+                </div> <div class="story story5">
+                    <img src="./images/jan.jpg" alt="">
+                    <p>Janmejay</p>
+                </div>
+            </div>
+
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="./images/jagsprofile.jpg" alt="">
+                    <div>
+                        <p>It's Jagmohan</p>
+                        <small class="public"><i class="fas fa-globe-asia"></i> Public <i class="fa fa-caret-down" aria-hidden="true"></i></small>
+                    </div>
+                </div>
+
+                <div class="post-input-conatainer">
+                    <textarea rows="3" placeholder="What's going on, Jags!"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="./images/live-video.png" alt="">Live Video</a>
+                        <a href="#"><img src="./images/photo.png" alt="">Add Media</a>
+                        <a href="#"><img src="./images/feeling.png" alt="">Add Feelings</a>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="./images/rahul.jpg" alt="">
+                        <div>
+                            <p>Rahul Mahato</p>
+                            <span class="public">July 14 2021, 11:35 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></a>
+                </div>
+              
+                <p class="post-text">Beach Party!!! <br> Subscribe to <a href="#">SocialKeeda</a>.</p>
+                <img src="./images/feed-image-2.png" alt="" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="./images/like-blue.png" alt="">200k</div>
+                        <div><img src="./images/comments.png" alt="">17k</div>
+                        <div><img src="./images/share.png" alt="">5k</div>
+                    </div>
+                    <div class="post-profile-icon">
+                    <img src="./images/rahul.jpg" alt=""><i class="fa fa-caret-down" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="./images/ashish.JPG" alt="">
+                        <div>
+                            <p>Ashish Kumar</p>
+                            <span class="public">July 10 2021, 15:35 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></a>
+                </div>
+              
+                <p class="post-text">After A Long Time....<br> Had A <a href="#">#getTogether</a>.</p>
+                <img src="./images/feed-image-3.png" alt="" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="./images/like.png" alt="">1.2k</div>
+                        <div><img src="./images/comments.png" alt="">393</div>
+                        <div><img src="./images/share.png" alt="">58</div>
+                    </div>
+                    <div class="post-profile-icon">
+                    <img src="./images/ashish.JPG" alt=""><i class="fa fa-caret-down" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="./images/dibya.JPG" alt="">
+                        <div>
+                            <p>Dibya Ranjan</p>
+                            <span class="public">July 10 2021, 15:19 am</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></a>
+                </div>
+              
+                <p class="post-text">Joint Conference @ <a href="#">Accenture</a>.</p>
+                <img src="./images/feed-image-5.png" alt="" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="./images/like.png" alt="">1.5k</div>
+                        <div><img src="./images/comments.png" alt="">743</div>
+                        <div><img src="./images/share.png" alt="">234</div>
+                    </div>
+                    <div class="post-profile-icon">
+                    <img src="./images/dibya.JPG" alt=""><i class="fa fa-caret-down" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="./images/jagsprofile.jpg" alt="">
+                        <div>
+                            <p>It's Jagmohan</p>
+                            <span class="public">July 10 2021, 12:00 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></a>
+                </div>
+              
+                <p class="post-text">Follow us for more knowledge on Website Development and UI Designs. <br> Subscribe to <a href="#">SocialKeeda</a>.</p>
+                <img src="./images/feed-image-4.png" alt="" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="./images/like-blue.png" alt="">520k</div>
+                        <div><img src="./images/comments.png" alt="">170k</div>
+                        <div><img src="./images/share.png" alt="">52k</div>
+                    </div>
+                    <div class="post-profile-icon">
+                    <img src="./images/jagsprofile.jpg" alt=""><i class="fa fa-caret-down" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="./images/jan.jpg" alt="">
+                        <div>
+                            <p>Janmejay Singh</p>
+                            <span class="public">July 01 2021, 11:35 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></a>
+                </div>
+              
+                <p class="post-text">Please Notify New Updates!<br> Subscribe to <a href="#">SocialKeeda</a>.</p>
+                <img src="./images/feed-image-1.png" alt="" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="./images/like-blue.png" alt="">40k</div>
+                        <div><img src="./images/comments.png" alt="">1k</div>
+                        <div><img src="./images/share.png" alt="">621</div>
+                    </div>
+                    <div class="post-profile-icon">
+                    <img src="./images/jan.jpg" alt=""><i class="fa fa-caret-down" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="load-more">Load More</button>
+        </div>
+
+        <!-- Right Sidebar -->
+        <div class="right-sidebar">
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+            <div class="events">
+                <div class="left-events">
+                    <h3>16</h3>
+                    <span>July</span>
+                </div>
+                <div class="right-events">
+                    <h4>Corona Alert</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Salt Lake</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="events">
+                <div class="left-events">
+                    <h3>16</h3>
+                    <span>July</span>
+                </div>
+                <div class="right-events">
+                    <h4>Affiliate Marketing</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Adityapur</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="sidebar-title">
+                <h4>Advertisements</h4>
+                <a href="#"><i class="fas fa-window-close"></i></a>
+            </div>
+            <img src="./images/advertisement.png" alt="" class="sidebar-ads">
+
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#"><i class="fas fa-window-close"></i></a>
+            </div>
+         <div class="online-list">
+             <div class="online">
+                 <img src="./images/dibya.jpg" alt="">
+             </div>
+             <p>Dibya Senapati</p>
+         </div>
+         <div class="online-list">
+            <div class="online">
+                <img src="./images/sumat.JPG" alt="">
+            </div>
+            <p>Sumat Behera</p>
+        </div> <div class="online-list">
+            <div class="online">
+                <img src="./images/ashish.JPG" alt="">
+            </div>
+            <p>Ashish Kumar</p>
+        </div>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>Copyright 2021. Made By JaGs with <i class="fa fa-heart" aria-hidden="true"></i></p>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
